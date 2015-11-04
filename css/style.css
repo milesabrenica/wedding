@@ -1,0 +1,653 @@
+/*DEFAULT STYLES*/
+@font-face {
+  font-family: 'bombshell_proregular';
+  src: url("../fonts/Bombshell_Pro-webfont.eot");
+  src: url("../fonts/Bombshell_Pro-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Bombshell_Pro-webfont.woff2") format("woff2"), url("../fonts/Bombshell_Pro-webfont.woff") format("woff"), url("../fonts/Bombshell_Pro-webfont.ttf") format("truetype"), url("../fonts/Bombshell_Pro-webfont.svg#bombshell_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  width: 100%;
+  font-family: 'lato';
+  text-align: center;
+  font-size: 15px;
+  /*NAV STYLES*/
+  /*HOMEPAGE STYLES*/
+  /*WELCOME PAGE*/
+  /*THE COUPLE STYLES*/
+  /*PROPOSAL*/
+  /*BRIDAL PARTY*/
+  /*OWL BRIDAL PARTY*/
+  /*QUOTE*/
+  /*EVENTS STYLES*/
+  /*RSVP*/
+  /*SOCIAL*/
+  /*FOOTER*/ }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p {
+    line-height: 1; }
+  body h1 {
+    font-size: 5em; }
+  body h2 {
+    font-size: 2em; }
+  body h1 {
+    font-family: 'Playfair display';
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0px 0px 45px #000000;
+    margin: 0px; }
+    @media screen and (max-width: 640px) {
+      body h1 {
+        font-size: 2em; } }
+  body h2 {
+    font-weight: normal;
+    margin: 0px;
+    font-family: 'bombshell_proregular';
+    color: #ffffff;
+    padding: 0px; }
+  body h3 {
+    font-weight: normal;
+    font-family: 'Abril Fatface';
+    padding: 0px;
+    margin: 0px; }
+  body .clear {
+    clear: both; }
+  body .main-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1% 0px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: block;
+    text-align: center; }
+    @media screen and (max-width: 640px) {
+      body .main-nav .desktop-tablet-entourage {
+        display: none !important; } }
+    body .main-nav .mobile-entourage {
+      display: none !important; }
+      @media screen and (max-width: 640px) {
+        body .main-nav .mobile-entourage {
+          display: inline !important; } }
+    body .main-nav ul {
+      height: 30px;
+      padding: 0;
+      margin: 0 auto; }
+    body .main-nav li {
+      display: inline-block;
+      text-align: center;
+      margin-right: 5%; }
+      @media screen and (max-width: 959px) {
+        body .main-nav li {
+          font-size: 1em;
+          letter-spacing: 2px;
+          margin-right: 2%; } }
+      @media screen and (max-width: 640px) {
+        body .main-nav li {
+          font-size: .75rem;
+          margin-right: 1%; } }
+      body .main-nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1em;
+        letter-spacing: 2px; }
+        @media screen and (max-width: 640px) {
+          body .main-nav li a {
+            letter-spacing: 2px;
+            font-size: 1rem;
+            text-transform: lowercase; } }
+    body .main-nav .last {
+      margin: 0; }
+  body .main-nav-scrolled {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.75); }
+    @media screen and (max-width: 959px) {
+      body .main-nav-scrolled {
+        font-size: 1em;
+        letter-spacing: 2px; } }
+    body .main-nav-scrolled ul {
+      padding: 0px; }
+  body #homepage {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /*COUNTDOWN STYLES*/ }
+    body #homepage a.gifts {
+      color: ffffff;
+      font-size: 20px;
+      text-decorataion: none; }
+    @media screen and (max-width: 640px) {
+      body #homepage {
+        height: 50vh; } }
+    body #homepage .cbp-bislideshow {
+      list-style: none;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      padding: 0;
+      margin: 0; }
+    body #homepage .main {
+      padding: 10% 0px;
+      margin: 0 auto;
+      clear: both;
+      width: 75%; }
+      @media screen and (max-width: 959px) {
+        body #homepage .main {
+          width: 100%;
+          font-size: 1.5em; } }
+      @media screen and (max-width: 640px) {
+        body #homepage .main {
+          padding: 5% 0px;
+          width: 100%;
+          font-size: 1.25em; } }
+      body #homepage .main ul li {
+        width: 100%; }
+        @media screen and (max-width: 959px) {
+          body #homepage .main ul li {
+            width: 100%;
+            font-size: 1.5em; } }
+        @media screen and (max-width: 640px) {
+          body #homepage .main ul li {
+            width: 100%;
+            font-size: 1em; } }
+      body #homepage .main p {
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+        margin: 0;
+        color: #ffffff;
+        padding: 5%; }
+        @media screen and (max-width: 959px) {
+          body #homepage .main p {
+            font-size: .5em;
+            letter-spacing: 2px;
+            padding: 0;
+            line-height: 50px; } }
+        @media screen and (max-width: 640px) {
+          body #homepage .main p {
+            font-size: .5em;
+            letter-spacing: 2px;
+            padding: 0;
+            line-height: 50px; } }
+      body #homepage .main h1 {
+        font-size: 4em; }
+        @media screen and (max-width: 959px) {
+          body #homepage .main h1 {
+            width: 100%;
+            font-size: 1.5em; } }
+        @media screen and (max-width: 640px) {
+          body #homepage .main h1 {
+            width: 100%;
+            font-size: 1em; } }
+    body #homepage #clock {
+      font-family: 'Abril Fatface';
+      font-size: 1em;
+      color: #ffffff;
+      letter-spacing: 10px;
+      text-shadow: 0px 0px 15px #747576; }
+      @media screen and (max-width: 959px) {
+        body #homepage #clock {
+          font-size: .7em;
+          letter-spacing: 2px; } }
+      @media screen and (max-width: 640px) {
+        body #homepage #clock {
+          font-size: .5em;
+          letter-spacing: 2px;
+          padding-bottom: 10%; } }
+  body #welcome {
+    padding: 5% 0;
+    background-image: url("../img/chalkboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    @media screen and (max-width: 640px) {
+      body #welcome {
+        padding: 15% 0; } }
+    body #welcome p {
+      color: #ffffff;
+      font-size: 1em;
+      width: 50%;
+      margin: 0 auto; }
+      @media screen and (max-width: 640px) {
+        body #welcome p {
+          width: 95%;
+          font-size: 1rem; } }
+    body #welcome img {
+      width: 20px; }
+  body #couple {
+    padding: 5% 0;
+    background-image: url("../img/whitescales.jpg");
+    background-attachment: fixed; }
+    body #couple h2 {
+      color: #000; }
+    body #couple h3 {
+      /*color:#cccccc;*/
+      font-size: 2rem;
+      line-height: 55px; }
+    body #couple #about_us {
+      width: 95%;
+      margin: 0 auto;
+      padding: 5% 0; }
+      @media screen and (max-width: 640px) {
+        body #couple #about_us {
+          width: 100%; } }
+    body #couple .about {
+      padding: 3% 0;
+      width: 33%;
+      margin: 0 auto;
+      float: left;
+      text-align: center; }
+      @media screen and (max-width: 640px) {
+        body #couple .about {
+          width: 72%;
+          float: none; } }
+      body #couple .about img.about-img {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        border: 3px #cccccc solid;
+        border-radius: 50%; }
+      body #couple .about img.about-icon {
+        display: block;
+        margin: 20px auto; }
+      body #couple .about img.greyheart {
+        width: 32px; }
+      body #couple .about div.about-blurb p {
+        width: 95%;
+        text-align: center;
+        font-size: 1em;
+        margin: 0 auto; }
+        @media screen and (max-width: 640px) {
+          body #couple .about div.about-blurb p {
+            font-size: 1rem; } }
+  body #proposal {
+    padding: 5% 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)), url("../img/proposal/diamondring.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #000000; }
+    @media screen and (max-width: 640px) {
+      body #proposal {
+        background-size: cover; } }
+    body #proposal h2 {
+      color: #000000; }
+    body #proposal p {
+      width: 85%;
+      margin: 0 auto;
+      color: #000000;
+      font-size: 1em; }
+      @media screen and (max-width: 640px) {
+        body #proposal p {
+          font-size: 1rem; } }
+    body #proposal .owl-carousel {
+      padding-top: 5%;
+      margin: 0; }
+      body #proposal .owl-carousel img {
+        width: 100%;
+        height: auto; }
+      body #proposal .owl-carousel .owl-wrapper-outer {
+        overflow: hidden; }
+        @media screen and (max-width: 640px) {
+          body #proposal .owl-carousel .owl-wrapper-outer {
+            height: auto; } }
+      body #proposal .owl-carousel .owl-controls, body #proposal .owl-carousel .owl-pagination {
+        display: none; }
+      body #proposal .owl-carousel .owl-controls.clickable {
+        display: none !important; }
+      body #proposal .owl-carousel .owl-controls {
+        display: none !important; }
+  @media screen and (max-width: 640px) {
+    body #bridal_party {
+      display: none !important; } }
+  body #bridal_party img {
+    border: 3px solid #cccccc;
+    border-radius: 50%;
+    width: 100%;
+    /*-webkit-filter: grayscale(100%); filter: grayscale(100%); */ }
+  body #bridal_party img.default {
+    display: none; }
+  body #bridal_party #bridesmaids {
+    padding: 5% 0;
+    width: 50%;
+    float: left;
+    background-image: url("../img/cream-grain.jpg");
+    background-attachment: fixed;
+    color: #616257;
+    text-align: center;
+    position: relative; }
+    @media screen and (max-width: 959px) {
+      body #bridal_party #bridesmaids {
+        float: left;
+        width: 100%;
+        text-align: center; } }
+    body #bridal_party #bridesmaids h2 {
+      color: #616257; }
+    body #bridal_party #bridesmaids .bm-cover {
+      height: 100%;
+      position: absolute;
+      background-image: url("../img/cream-grain.jpg");
+      top: 0;
+      right: 0;
+      width: 100%; }
+      body #bridal_party #bridesmaids .bm-cover .bm-content {
+        padding: 40% 0px; }
+        body #bridal_party #bridesmaids .bm-cover .bm-content img.click {
+          border: 0px;
+          height: 100px;
+          width: 100px; }
+  body #bridal_party #groomsmen {
+    padding: 5% 0;
+    width: 50%;
+    float: left;
+    background-image: url("../img/blackgrain.jpg");
+    background-attachment: fixed;
+    color: #ebe9dd;
+    text-align: center;
+    position: relative; }
+    @media screen and (max-width: 959px) {
+      body #bridal_party #groomsmen {
+        float: left;
+        width: 100%; } }
+    body #bridal_party #groomsmen h2 {
+      color: #ebe9dd; }
+    body #bridal_party #groomsmen .gm-cover {
+      height: 100%;
+      position: absolute;
+      background-image: url("../img/blackgrain.jpg");
+      top: 0;
+      right: 0;
+      width: 100%; }
+      body #bridal_party #groomsmen .gm-cover .gm-content {
+        padding: 40% 0px; }
+        body #bridal_party #groomsmen .gm-cover .gm-content img.click {
+          border: 0px;
+          height: 100px;
+          width: 100px; }
+  body #bridal_party .single {
+    width: 20%;
+    padding: 3% 2%;
+    float: left; }
+    @media screen and (max-width: 959px) {
+      body #bridal_party .single {
+        float: left;
+        margin-top: 0px; } }
+    body #bridal_party .single img {
+      width: 100%; }
+    body #bridal_party .single h2 {
+      font-size: 20px; }
+    body #bridal_party .single h3 {
+      display: inline-block;
+      font-size: 15px; }
+  body #owl_bridal_party {
+    display: none !important; }
+    body #owl_bridal_party .owl-controls, body #owl_bridal_party .owl-pagination {
+      display: none !important; }
+    body #owl_bridal_party .owl-controls.clickable {
+      display: none !important; }
+    @media screen and (max-width: 640px) {
+      body #owl_bridal_party {
+        display: block !important; }
+        body #owl_bridal_party img {
+          border: 3px solid #cccccc;
+          border-radius: 50%;
+          width: 100%;
+          /*-webkit-filter: grayscale(100%); filter: grayscale(100%); */ }
+        body #owl_bridal_party h2 {
+          font-size: 1.5em; }
+        body #owl_bridal_party #owl_bridesmaids {
+          background-image: url("../img/cream-grain.jpg");
+          background-attachment: fixed;
+          color: #616257;
+          text-align: center;
+          position: relative;
+          width: 100%;
+          float: none; }
+          body #owl_bridal_party #owl_bridesmaids h2 {
+            color: #616257; }
+          body #owl_bridal_party #owl_bridesmaids .owl-bm-cover {
+            height: 100%;
+            width: 100%;
+            overflow: hidden; }
+            body #owl_bridal_party #owl_bridesmaids .owl-bm-cover .bm-content {
+              padding: 20% 0px; }
+              body #owl_bridal_party #owl_bridesmaids .owl-bm-cover .bm-content h2 {
+                padding-top: 5%; }
+              body #owl_bridal_party #owl_bridesmaids .owl-bm-cover .bm-content img.swipe {
+                padding-top: 5%;
+                border: 0px;
+                width: 50px; }
+        body #owl_bridal_party #owl_groomsmen {
+          width: 100%;
+          float: none;
+          background-image: url("../img/blackgrain.jpg");
+          background-attachment: fixed;
+          color: #ebe9dd;
+          text-align: center;
+          position: relative; }
+          body #owl_bridal_party #owl_groomsmen h2 {
+            color: #ebe9dd; }
+          body #owl_bridal_party #owl_groomsmen .owl-gm-cover {
+            height: 100%;
+            width: 100%; }
+            body #owl_bridal_party #owl_groomsmen .owl-gm-cover .gm-content {
+              padding: 20% 0px; }
+              body #owl_bridal_party #owl_groomsmen .owl-gm-cover .gm-content h2 {
+                padding-top: 5%; }
+              body #owl_bridal_party #owl_groomsmen .owl-gm-cover .gm-content img.swipe {
+                padding-top: 5%;
+                border: 0px;
+                width: 50px; }
+        body #owl_bridal_party .owl-single {
+          width: 50%;
+          padding: 3% 0%;
+          float: left; }
+          body #owl_bridal_party .owl-single img {
+            width: 50%; }
+          body #owl_bridal_party .owl-single h2 {
+            font-size: 20px; }
+          body #owl_bridal_party .owl-single h3 {
+            display: inline-block;
+            font-size: 15px; } }
+  body .quote {
+    background-image: url("../img/landing/IMG_1018.png");
+    background-size: cover;
+    background-width: 100%;
+    background-repeat: no-repeat;
+    padding: 15% 0; }
+    @media screen and (max-width: 640px) {
+      body .quote {
+        background-size: 100%;
+        padding: 10% 0; } }
+    body .quote p {
+      margin: 0px; }
+      @media screen and (max-width: 640px) {
+        body .quote p {
+          width: 100%; } }
+  body #events {
+    padding: 5% 0;
+    background-image: url("http://png.clipart.me/graphics/thumbs/117/hand-drawn-linear-simple-and-elegant-tartan-scottish-ethnic-pattern-with-barely-visible-grey-silver-lines-website-background-or_117587488.jpg");
+    background-attachment: fixed;
+    display: block; }
+    body #events .section-head p {
+      text-align: center;
+      color: #000;
+      margin: 0;
+      font-size: 1rem; }
+    body #events .details {
+      width: 65%;
+      margin: 0 auto; }
+      @media screen and (max-width: 640px) {
+        body #events .details {
+          width: 100%;
+          float: none; } }
+    body #events .event-details {
+      padding: 2% 0;
+      color: #3F3F3F;
+      display: inline-block;
+      background-color: rgba(143, 143, 143, 0.37);
+      border-radius: 0;
+      width: 40%;
+      margin: 10px;
+      /* height: 15em; */ }
+      @media screen and (max-width: 640px) {
+        body #events .event-details {
+          float: none;
+          margin: 10px 0;
+          width: 100%;
+          float: none; } }
+      body #events .event-details li {
+        list-style: none;
+        font-size: .95rem;
+        color: #3F3F3F;
+        text-align: left;
+        width: 95%;
+        margin: 0 auto;
+        line-height: 30px; }
+        @media screen and (max-width: 640px) {
+          body #events .event-details li {
+            font-size: 1rem; } }
+        body #events .event-details li p {
+          display: inline;
+          padding: 0;
+          margin: 0; }
+    body #events img {
+      margin-right: 10px; }
+    body #events .detail-icon {
+      width: 20px; }
+    body #events .reception {
+      background-repeat: no-repeat;
+      background-size: 100%; }
+    body #events h2 {
+      color: #3F3F3F; }
+    @media screen and (max-width: 640px) {
+      body #events .map {
+        display: none; } }
+  body #rsvp {
+    display: none !important;
+    background-image: url("../img/chalkboard.jpg");
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 5% 0;
+    display: none; }
+    body #rsvp fieldset#rsvp-form {
+      border: none; }
+      @media screen and (max-width: 640px) {
+        body #rsvp fieldset#rsvp-form {
+          width: 100%; } }
+      body #rsvp fieldset#rsvp-form .form-field {
+        text-align: center;
+        margin: 0px auto; }
+        @media screen and (max-width: 640px) {
+          body #rsvp fieldset#rsvp-form .form-field {
+            width: 100%; } }
+        body #rsvp fieldset#rsvp-form .form-field label {
+          display: block;
+          margin-top: 10px; }
+      body #rsvp fieldset#rsvp-form .yes-no label {
+        display: block;
+        margin-top: 10px;
+        text-align: center; }
+      @media screen and (max-width: 640px) {
+        body #rsvp fieldset#rsvp-form .yes-no input, body #rsvp fieldset#rsvp-form .yes-no select, body #rsvp fieldset#rsvp-form .yes-no textarea {
+          width: 100%; } }
+      body #rsvp fieldset#rsvp-form input, body #rsvp fieldset#rsvp-form textarea, body #rsvp fieldset#rsvp-form .numberOfGuests {
+        width: 50%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        display: inline-block;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: 'lato';
+        font-size: 15px;
+        -webkit-transition: box-shadow 0.3s, border 0.3s;
+        -moz-transition: box-shadow 0.3s, border 0.3s;
+        -o-transition: box-shadow 0.3s, border 0.3s;
+        transition: box-shadow 0.3s, border 0.3s; }
+        @media screen and (max-width: 640px) {
+          body #rsvp fieldset#rsvp-form input, body #rsvp fieldset#rsvp-form textarea, body #rsvp fieldset#rsvp-form .numberOfGuests {
+            width: 100%; } }
+      body #rsvp fieldset#rsvp-form input:focus, body #rsvp fieldset#rsvp-form input[type="text"].focus,
+      body #rsvp fieldset#rsvp-form textarea:focus, body #rsvp fieldset#rsvp-form textarea[type="textarea"].focus,
+      body #rsvp fieldset#rsvp-form .numberOfGuests:focus, body #rsvp fieldset#rsvp-form .numberOfGuests[type="text"].focus {
+        border: none;
+        -webkit-box-shadow: 0 0 5px 3px #5c6c79;
+        -moz-box-shadow: 0 0 5px 3px #5c6c79;
+        box-shadow: 0 0 5px 3px #5c6c79;
+        color: #ffffff; }
+        @media screen and (max-width: 640px) {
+          body #rsvp fieldset#rsvp-form input:focus, body #rsvp fieldset#rsvp-form input[type="text"].focus,
+          body #rsvp fieldset#rsvp-form textarea:focus, body #rsvp fieldset#rsvp-form textarea[type="textarea"].focus,
+          body #rsvp fieldset#rsvp-form .numberOfGuests:focus, body #rsvp fieldset#rsvp-form .numberOfGuests[type="text"].focus {
+            width: 100%; } }
+      body #rsvp fieldset#rsvp-form input[type=submit] {
+        margin-top: 25px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        font-size: 25px;
+        font-family: 'lato';
+        font-weight: none;
+        width: 50%; }
+        @media screen and (max-width: 640px) {
+          body #rsvp fieldset#rsvp-form input[type=submit] {
+            width: 100%; } }
+  body #social {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url("../img/landing/social-bg.jpg");
+    background-size: cover;
+    background-width: 100%;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    top: 0;
+    left: 0; }
+    body #social .social-container {
+      padding: 5% 0; }
+      @media screen and (max-width: 640px) {
+        body #social .social-container {
+          width: 100%; } }
+      body #social .social-container h1 {
+        font-family: 'lato';
+        font-weight: 100;
+        color: #ffffff;
+        text-shadow: 0px 0px 0px #FED3B2;
+        margin-top: 2%;
+        font-size: 2em; }
+        @media screen and (max-width: 640px) {
+          body #social .social-container h1 {
+            font-size: 1.5em;
+            margin-bottom: 3%; } }
+      body #social .social-container h2 {
+        padding-top: 2%; }
+        @media screen and (max-width: 640px) {
+          body #social .social-container h2 {
+            font-size: 1em; } }
+      body #social .social-container a img {
+        padding: 25px;
+        width: 10%; }
+        @media screen and (max-width: 640px) {
+          body #social .social-container a img {
+            width: 15%;
+            padding: 0px; } }
+  body footer {
+    color: #ffffff;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    display: block; }
+    body footer p {
+      font-size: 1em;
+      margin: 0; }
+      @media screen and (max-width: 640px) {
+        body footer p {
+          font-size: .75rem; } }
+    body footer img {
+      width: 25px; }
+    body footer h1 {
+      color: #ffffff;
+      letter-spacing: 3px;
+      font-size: 1em; }
+
+/*GUESTBOOK*/
