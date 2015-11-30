@@ -908,11 +908,21 @@ body{
 		left:0;
 		
 		#ig-feed{
-			width: 960px;
 			margin: 0 auto;
+			a{
+				height: 200px;
+				width: 200px;
+			}
+
+			div{
+				display: inline-block;
+				height: 200px;
+			}
 
 			img.ig-photo{
 				width: 200px;
+				height: 200px;
+				vertical-align: middle;
 			}
 		}
 		
@@ -924,6 +934,7 @@ body{
 				width: 100%;
 				
 			}
+			
 	
 			h1{
 				font-family: 'lato';

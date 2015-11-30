@@ -604,10 +604,17 @@ body {
     top: 0;
     left: 0; }
     body #social #ig-feed {
-      width: 960px;
       margin: 0 auto; }
-      body #social #ig-feed img.ig-photo {
+      body #social #ig-feed a {
+        height: 200px;
         width: 200px; }
+      body #social #ig-feed div {
+        display: inline-block;
+        height: 200px; }
+      body #social #ig-feed img.ig-photo {
+        width: 200px;
+        height: 200px;
+        vertical-align: middle; }
     body #social .social-container {
       padding: 5% 0; }
       @media screen and (max-width: 640px) {
