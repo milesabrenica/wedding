@@ -15,7 +15,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   display: none; }
   .overlay .fullsize {
-    height: 500px;
+    /*height: 500px;*/
     width: 500px;
     background-color: #ffffff;
     padding: 20px;
@@ -38,7 +38,7 @@
       line-height: 45px;
       cursor: pointer;
       height: 50px;
-      width: 55px; }
+      width: 45px; }
 
 .no_scroll {
   overflow: hidden; }
