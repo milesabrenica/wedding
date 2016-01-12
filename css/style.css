@@ -32,13 +32,14 @@
       width: 90%; }
     .overlay .fullsize .close {
       position: absolute;
-      top: 10px;
-      right: 19px;
-      border: 1px solid;
+      top: 0px;
+      right: 0px;
+      /*border: 1px solid;*/
       padding: 7px 16px;
-      border-radius: 50%;
+      /*border-radius: 50%;*/
       font-family: lato;
-      line-height: 25px; }
+      line-height: 25px;
+      cursor: pointer; }
 
 .no_scroll {
   overflow: hidden; }
