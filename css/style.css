@@ -639,13 +639,7 @@ body {
   body #social {
     background-image: url("../img/whitescales.jpg");
     background-attachment: fixed;
-    background-repeat: repeat;
-    /*background-size: cover;*/
-    /*background-width:100%;
-    background-position:absolute;
-    top:0;
-    left:0;
-    */ }
+    background-repeat: repeat; }
     body #social #ig-feed {
       margin: 0 auto;
       position: relative; }
@@ -681,7 +675,7 @@ body {
       body #social .social-container h1 {
         font-family: 'lato';
         font-weight: 100;
-        color: #ffffff;
+        color: #000;
         text-shadow: 0px 0px 0px #FED3B2;
         margin-top: 2%;
         font-size: 2em; }
