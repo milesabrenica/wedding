@@ -659,10 +659,11 @@ body {
           cursor: pointer;
           color: #000;
           text-decoration: none;
-          font-family: 'Playfair display';
+          font-family: 'lato';
           font-weight: bold;
           /*background-color: #000;*/
-          font-size: 15px; }
+          font-size: 15px;
+          letter-spacing: 3px; }
       body #social #ig-feed img.ig-photo {
         width: 200px;
         height: 200px; }
