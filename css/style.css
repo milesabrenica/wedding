@@ -5,6 +5,44 @@
   src: url("../fonts/Bombshell_Pro-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Bombshell_Pro-webfont.woff2") format("woff2"), url("../fonts/Bombshell_Pro-webfont.woff") format("woff"), url("../fonts/Bombshell_Pro-webfont.ttf") format("truetype"), url("../fonts/Bombshell_Pro-webfont.svg#bombshell_proregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none; }
+  .overlay .fullsize {
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 15;
+    transform: translate(-50%, -50%);
+    overflow-x: auto; }
+    .overlay .fullsize img {
+      z-index: 25;
+      height: 90%;
+      width: 90%; }
+    .overlay .fullsize .close {
+      position: absolute;
+      top: 10px;
+      right: 19px;
+      border: 1px solid;
+      padding: 7px 16px;
+      border-radius: 50%;
+      font-family: lato;
+      line-height: 25px; }
+
+.no_scroll {
+  overflow: hidden; }
+
 body {
   width: 100%;
   font-family: 'lato';
@@ -20,6 +58,7 @@ body {
   /*QUOTE*/
   /*EVENTS STYLES*/
   /*RSVP*/
+  /*OVERLAY*/
   /*SOCIAL*/
   /*FOOTER*/ }
   body h1, body h2, body h3, body h4, body h5, body h6, body p {
@@ -368,7 +407,8 @@ body {
   body #bridal_party .single {
     width: 20%;
     padding: 3% 2%;
-    float: left; }
+    float: left;
+    height: 185px; }
     @media screen and (max-width: 959px) {
       body #bridal_party .single {
         float: left;
@@ -596,25 +636,42 @@ body {
           body #rsvp fieldset#rsvp-form input[type=submit] {
             width: 100%; } }
   body #social {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url("../img/landing/social-bg.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../img/landing/social-bg.jpg');*/
+    background-color: #000;
     background-size: cover;
     background-width: 100%;
     background-repeat: no-repeat;
+    /*// background-attachment:fixed;*/
     background-position: absolute;
     top: 0;
     left: 0; }
     body #social #ig-feed {
-      margin: 0 auto; }
-      body #social #ig-feed a {
-        height: 200px;
-        width: 200px; }
-      body #social #ig-feed div {
+      margin: 0 auto;
+      position: relative; }
+      body #social #ig-feed div.ig-thumb {
         display: inline-block;
-        height: 200px; }
+        height: 200px;
+        line-height: 200px;
+        position: relative; }
+      body #social #ig-feed .ig-thumb-hover {
+        background-color: rgba(255, 255, 255, 0.75);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0; }
+        body #social #ig-feed .ig-thumb-hover a {
+          cursor: pointer;
+          color: #000;
+          text-decoration: none;
+          font-family: 'Playfair display';
+          font-weight: bold;
+          /*background-color: #000;*/
+          font-size: 15px; }
       body #social #ig-feed img.ig-photo {
         width: 200px;
-        height: 200px;
-        vertical-align: middle; }
+        height: 200px; }
     body #social .social-container {
       padding: 5% 0; }
       @media screen and (max-width: 640px) {

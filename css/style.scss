@@ -13,11 +13,63 @@
     font-style: normal;
 }
 
+.overlay{
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.5);
+	display:none;
+
+	.fullsize{
+		height: 500px;
+		width: 500px;
+		background-color: #ffffff;
+		padding: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		display: none;
+		z-index: 15;
+		transform: translate(-50%, -50%);
+		overflow-x: auto;
+
+
+		img{
+			z-index: 25;
+			height: 90%;
+			width: 90%;
+		}
+
+		.close{
+			position: absolute;
+		    top: 10px;
+		    right: 19px;
+		    border: 1px solid;
+		    padding: 7px 16px;
+		    border-radius: 50%;
+		    font-family: lato;
+		    line-height: 25px;
+
+		}
+	}
+}
+
+
+
+.no_scroll{
+	overflow:hidden;
+}
+
 body{
 	width:100%;
 	font-family: 'lato';
 	text-align: center;	
 	font-size:15px;
+
+	
 
 	h1,h2,h3,h4,h5,h6,p {
 		line-height: 1;
@@ -540,6 +592,7 @@ body{
 			width: 20%;
 			padding: 3% 2%;
 			float:left;
+			height: 185px;
 
 			@include breakpoint('tablet'){
 				float: left;				
@@ -896,34 +949,59 @@ body{
 		}
 	}
 
+	/*OVERLAY*/
+
+
 	/*SOCIAL*/
 	#social{
-		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../img/landing/social-bg.jpg');
+		/*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../img/landing/social-bg.jpg');*/
+		background-color: #000;
 		background-size: cover;
 		background-width:100%;
 		background-repeat:no-repeat;
-		// background-attachment:fixed;
+		/*// background-attachment:fixed;*/
 		background-position:absolute;
 		top:0;
 		left:0;
 		
 		#ig-feed{
 			margin: 0 auto;
-			a{
-				height: 200px;
-				width: 200px;
-			}
+			position: relative;
 
-			div{
+			div.ig-thumb{
 				display: inline-block;
 				height: 200px;
+				line-height: 200px;
+				position: relative;
+			}
+
+
+			.ig-thumb-hover{
+				background-color: rgba(255,255,255,0.75);;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left:0;
+				opacity: 0;
+
+				a{
+					cursor: pointer;
+					color: #000;
+					text-decoration: none;
+					font-family: 'Playfair display';
+					font-weight: bold;
+					/*background-color: #000;*/
+					font-size: 15px; 
+				}
 			}
 
 			img.ig-photo{
 				width: 200px;
 				height: 200px;
-				vertical-align: middle;
 			}
+
+			
 		}
 		
 

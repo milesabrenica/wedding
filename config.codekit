@@ -1005,23 +1005,23 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/jquery.countdown-2.0.4\/jquery.countdown.js": {
+	"\/jquery.countdown-2.1.0\/jquery.countdown.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.countdown-2.0.4\/jquery.countdown.js",
-		"outputAbbreviatedPath": "\/jquery.countdown-2.0.4\/min\/jquery.countdown-min.js",
+		"inputAbbreviatedPath": "\/jquery.countdown-2.1.0\/jquery.countdown.js",
+		"outputAbbreviatedPath": "\/jquery.countdown-2.1.0\/min\/jquery.countdown-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/jquery.countdown-2.0.4\/jquery.countdown.min.js": {
+	"\/jquery.countdown-2.1.0\/jquery.countdown.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.countdown-2.0.4\/jquery.countdown.min.js",
-		"outputAbbreviatedPath": "\/jquery.countdown-2.0.4\/min\/jquery.countdown.min-min.js",
+		"inputAbbreviatedPath": "\/jquery.countdown-2.1.0\/jquery.countdown.min.js",
+		"outputAbbreviatedPath": "\/jquery.countdown-2.1.0\/min\/jquery.countdown.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
