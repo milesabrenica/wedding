@@ -140,7 +140,7 @@ function processResponse(data){
 		$("#ig-feed").append("\
             <div class='ig-thumb'>\
                 <div class='ig-thumb-hover'>\
-                    <a class='full-view'>Full View</a> &hearts; \
+                    <a class='full-view'>Full View</a> &middot; \
                     <a target='_blank' class='ig-link' href='"+igFeed.data[i].link +"'>Instagram</a>\
                 </div>\
                 <img class='ig-photo' data-fullres='"+igFeed.data[i].images.standard_resolution.url+"' src='"+igFeed.data[i].images.low_resolution.url+"'/>\
