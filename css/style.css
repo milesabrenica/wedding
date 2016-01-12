@@ -637,15 +637,15 @@ body {
           body #rsvp fieldset#rsvp-form input[type=submit] {
             width: 100%; } }
   body #social {
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../img/landing/social-bg.jpg');*/
-    background-color: #000;
-    background-size: cover;
-    background-width: 100%;
-    background-repeat: no-repeat;
-    /*// background-attachment:fixed;*/
-    background-position: absolute;
-    top: 0;
-    left: 0; }
+    background-image: url("../img/whitescales.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    /*background-size: cover;*/
+    /*background-width:100%;
+    background-position:absolute;
+    top:0;
+    left:0;
+    */ }
     body #social #ig-feed {
       margin: 0 auto;
       position: relative; }
