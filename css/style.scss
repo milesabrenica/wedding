@@ -45,15 +45,13 @@
 
 		.close{
 			position: absolute;
-		    top: 0px;
-		    right: 0px;
-		    /*border: 1px solid;*/
-		    padding: 7px 16px;
-		    /*border-radius: 50%;*/
-		    font-family: lato;
-		    line-height: 25px;
-		    cursor: pointer;
-
+			top: 0px;
+			right: 0px;
+			font-family: lato;
+			line-height: 45px;
+			cursor: pointer;
+			height: 50px;
+			width: 55px;
 		}
 	}
 }
